@@ -8,9 +8,14 @@ Text: 1A1A1A
 
 html,
 body {
+    margin: 0px;
+    padding: 0px;
+}
+body {
     font-family: 'Montserrat', 'Times New Roman', Times, serif; 
     font-size:medium;
 }
+
 ul {
     padding-left: 0px;
 }
@@ -19,16 +24,18 @@ ul {
 /* Header Section*/ 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 #spotify-logo {
-    width: 100px;
-    height: 40px;
+    width: 190px;
+    height: 60px;
+    padding: 10px 0px 10px 25px;
 }
 
 #navbar {
-    width: 50%
+    width: 35%;
+    margin-top: 15px;
 }
 
 #navbar ul {
@@ -40,7 +47,26 @@ header {
 
 
 /* Section Image background */
+#image-background {
+    background-image: url(/images/landing.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 1000px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+h1 {
+    font-size: 5em;
+}
+
+.font {
+    font-size: 1.5em;
+
+}
 /* Section: What is on */
 
 /* Section green */
